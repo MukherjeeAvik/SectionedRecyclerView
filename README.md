@@ -4,11 +4,13 @@ Often developing for apps  that boast just content, we often encounter a common 
 
 Given a similar assignment, without using any third party library, I decided to make a common framework that can be reused throughout the app or on other apps.
 
+![the basic idea](https://mysmartnet.com/images/tutorial_001.jpg)
+
 The underlying philosophy is as below:
  
-Each stack of cards is a block, which has a header, footer and a body. This block respects the contract of a sectionBlock
+Each stack of cards is a block, which has an optional header, footer and a body. This block respects the contract of a sectionBlock.
 
-Body of each block can have different elements.
+Body of each block may have different elements marked as Item1,Item2 and Item3.
 
 Each type of element to be displayed has to respect the contract of SectionChild , which requires a viewHolder  and a layout
 
