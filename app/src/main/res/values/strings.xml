@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SampleRecyclerView</string>
+    <string name="see_all_movies">see all %1$s movies</string>
+    <string name="dummy_poster_url">http://mysmartnet.com/images/%1$s_image.jpg</string>
+    <string name="switch_txt">switch</string>
+    <string name="disable_dark_mode_txt">Disable dark mode to view the page in white</string>
+    <string name="enable_dark_mode">Enable dark mode to view the page in black</string>
+    <string name="subscription_text">Subscribe to more movies for %1$s bucks</string>
+</resources>

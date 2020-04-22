@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+    </style>
+
+    <style name="movie_rating" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="fontFamily">@font/abril_fatface</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:selectable">false</item>
+    </style>
+    <style name="movie_name" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="fontFamily">@font/elsie_swash_caps</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:selectable">false</item>
+    </style>
+    <style name="see_all" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="fontFamily">@font/abril_fatface</item>
+        <item name="android:gravity">end</item>
+        <item name="android:selectable">false</item>
+    </style>
+    <style name="movieHeader" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="fontFamily">@font/abril_fatface</item>
+        <item name="android:gravity">end</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+    <style name="subscription_text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="fontFamily">@font/abril_fatface</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+
+    <style name="see_all_arrow">
+        <item name="tint">@color/colorAccent</item>
+    </style>
+
+
+</resources>
