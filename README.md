@@ -18,7 +18,9 @@ Each type of element to be displayed has to respect the contract of SectionChild
 
 ```kotlin 
     data class HorizontalMovieItem
-    (val movieName:String,val moviePosterImage:String,val movieRating:String)
+    (val movieName:String,
+    val moviePosterImage:String,
+    val movieRating:String)
     :SectionChildItem<MovieItemHorizontalViewHolder>{
 
     override fun getLayoutRes() = R.layout.movie_detail_horizontal_item
@@ -37,7 +39,7 @@ data class MovieHeaderItem
 }
 ```
 
-**Define a content block for a each section**
+**Define a content block for a each section**  
 
 ```kotlin
 val actionMovies = ContentBlock().apply {
@@ -68,9 +70,11 @@ val actionMovies = ContentBlock().apply {
 
         }
         
+  ``` 
         
-  Make similar section blocks for different sections in the screen and add it the SectionAdapter
-  
+        
+  **Make similar section blocks for different sections in the screen and add it the SectionAdapter**
+  ```kotlin
    
          val adapter = SectionedAdapter { clickedItem ->
         
@@ -83,4 +87,5 @@ val actionMovies = ContentBlock().apply {
         }
         adapter.addAll(getContent())
         contentList.adapter = adapter
+  ```
        
